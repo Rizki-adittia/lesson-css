@@ -1,0 +1,59 @@
+body {
+  height: 3000px;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  background: white;
+  padding: 10px 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border-bottom: 1px solid #ccc;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.profile {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.right button {
+  margin-left: 10px;
+  padding: 6px 12px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.add {
+  background: #1877f2;
+  color: white;
+}
+
+.message {
+  background: #e4e6eb;
+}
+
+.content {
+  margin-top: 70px;
+  padding: 20px;
+}

@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.sidebar-left {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+
+  width: 70px;
+  background: #1e1f22;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.sidebar-left img {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin-bottom: 10px;
+  object-fit: cover;
+}
+
+.sidebar-right {
+  position: fixed;
+  top: 0;
+  left: 70px; 
+  bottom: 0;
+
+  width: 200px;
+  background: #2b2d31;
+  color: white;
+  padding: 10px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.plus {
+  cursor: pointer;
+}
+
+.menu {
+  color: #b5bac1;
+  margin-bottom: 8px;
+  cursor: pointer;
+}

@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #111;
+  padding: 30px;
+}
+
+.menu {
+  background: #eee;
+  width: 300px;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between; /* kiri teks, kanan angka */
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.menu-item:last-child {
+  border-bottom: none;
+}
+
+.badge {
+  background: #3b5bdb;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 14px;
+}
