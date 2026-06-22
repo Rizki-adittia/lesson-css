@@ -1,0 +1,12 @@
+body{
+            font-family: Arial;
+            padding: 40px;
+        }
+        .judul{
+            font-size: 38px;
+            font-weight: bold;
+        }
+        .subjudul{
+            color: red;
+            font-style: italic;
+        }

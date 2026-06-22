@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>service</title>
+    <style>
+        body{
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
+            background: linear-gradient(to right, white,green);
+        }
+
+        nav{
+            background: rgb(10, 145, 21);
+            padding: 20px;
+            justify-content: space-between;
+            display: flex;
+            align-items: center;
+        }
+
+        nav a{
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .logo{
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: white;
+            letter-spacing: 1px;
+        }
+
+        .menu{
+            display: flex;
+            align-items: center;
+        }
+
+        .box{
+            padding: 100px;
+        }
+
+        .dropdown {
+            position: relative;
+        }
+
+
+        .dropdown-content a {
+            display: block;
+            background-color: rgb(10, 145, 21);
+            color: white;
+            padding: 10px;
+        }
+
+        .dropdown-content {
+            position: absolute;
+            background: white;
+            opacity: 0;
+            transform: translateY(-10px);
+            transition: 0.3s;
+            pointer-events: none;
+            min-width: 150px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+        }
+
+        .dropdown:hover .dropdown-content {
+           pointer-events: auto;
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="menu">
+            <a href="latihan.html">Home</a>
+            <a href="produk.html">Produk</a>
+
+            <div class="dropdown">
+                <a href="service.html">Service</a>
+                <div class="dropdown-content">
+                    <a href="latihan.html">Home</a>
+                    <a href="produk.html">Produk</a>
+                    <a href="about.html">About</a>
+                </div>
+            </div>
+
+            <a href="about.html">About</a>
+        </div>
+
+        <div class="logo">Shop<span style="color: yellow;">King</span></div>
+    </nav>
+
+    <section id="service" class="box">
+        <h1>Selamat Datang di Service</h1>
+        <p>ini halaman Service</p>
+    </section>
+</body>
+</html>

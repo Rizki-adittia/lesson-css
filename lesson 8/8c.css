@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+
+.logo {
+  width: 272px;
+  display: block;
+  margin: 0 auto 20px auto;
+}
+
+.search-box {
+  width: 500px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  font-size: 16px;
+  outline: none;
+}

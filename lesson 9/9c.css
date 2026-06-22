@@ -1,0 +1,9 @@
+.kotak{
+    width: 300px;
+    border: 1px solid gray;
+    padding: 15px;
+    font-family: Arial;
+}
+p{
+    margin-top: 0;
+}

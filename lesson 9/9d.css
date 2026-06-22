@@ -1,0 +1,17 @@
+.music-box{
+    width: 350px;
+    background-color: #1f1f1f;
+    padding: 20px;
+    font-family: Arial;
+}
+.judul{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
+.teks{
+    color: gray;
+    font-size: 14px;
+    margin: 0;
+}

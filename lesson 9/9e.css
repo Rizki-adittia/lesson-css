@@ -1,0 +1,35 @@
+body{
+    font-family: Arial;
+}
+.tweet-box{
+    width: 500px;
+    padding: 12px;
+    border: 1px solid #cfcfcf;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba (0,0,0,0,2);
+}
+img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50pxx;
+    object-fit: cover;
+    vertical-align: middle;
+}
+input{
+    border: none;
+    font-size: 16px;
+    margin-left: 10px;
+    width: 280px;
+    vertical-align: middle;
+    outline: none;
+}
+button{
+    background-color: #1d9bf0;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    vertical-align: middle;
+}
